@@ -33,7 +33,7 @@ spec:
     value: catalog.Dockerfile
   - name: build-args
     value:
-    - CATALOG_VERSION=v5.0
+    - OPM_IMAGE=registry.redhat.io/openshift4/ose-operator-registry-rhel9:v5.0
   - name: opm-args
     value:
       - alpha
