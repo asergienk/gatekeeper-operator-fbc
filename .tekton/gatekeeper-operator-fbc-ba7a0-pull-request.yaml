@@ -31,9 +31,6 @@ spec:
     - linux/x86_64
   - name: dockerfile
     value: catalog.Dockerfile
-  - name: build-args
-    value:
-    - OPM_IMAGE=registry.redhat.io/openshift4/ose-operator-registry-rhel9:v5.0
   - name: opm-args
     value:
       - alpha
