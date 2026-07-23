@@ -28,7 +28,7 @@ spec:
     value: 5d
   - name: build-args
     value:
-      - OPM_IMAGE=registry.redhat.io/openshift4/ose-operator-registry-rhel9:v4.21
+      - OPM_IMAGE=registry.redhat.io/openshift4/ose-operator-registry-rhel9:v5.0
   - name: build-platforms
     value:
       - linux/x86_64
